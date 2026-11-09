@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="154 273 1292 1017" role="img" aria-label="Jash">
+  <defs>
+    <linearGradient id="jash-shimmer" x1="154" y1="0" x2="1446" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset=".3" stop-color="#c4b5fd"/>
+      <stop offset=".5" stop-color="#e0d9ff"/>
+      <stop offset=".7" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#6366f1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1292 0" to="1292 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>@media(prefers-reduced-motion:reduce){.jash-art{fill:#c4b5fd}}</style>
+  <g class="jash-art" fill="url(#jash-shimmer)">
+    <path d="M538 719 801 293 1064 719H865L825 785 931 956H728L684 1028H976L1126 1270H1062L944 1080H652L536 1270H472L697 904H834L762 786 836 663 802 605 656 843H503L271 1218H295Q354 1218 384 1173L551 906H615L429 1207Q381 1269 295 1270H174L472 791H625L802 504 903 667H970L801 394 602 719Z"/>
+    <path d="M911 791H976L1123 1028H1211L1064 791H1129L1426 1270H1362L1244 1080H1156L1274 1270H1209Z"/>
+  </g>
+</svg>

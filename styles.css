@@ -42,7 +42,8 @@ nav {
   background:rgba(12,12,13,0.88); backdrop-filter:blur(20px);
   border-bottom:1px solid var(--border);
 }
-.nav-logo { font-size:16px; font-weight:500; color:var(--text); letter-spacing:-0.02em; }
+.nav-logo { display:flex; align-items:center; gap:11px; flex-shrink:0; color:#e0d9ff; text-decoration:none; }
+.nav-logo:focus-visible { outline:2px solid #a5a6f6; outline-offset:6px; border-radius:4px; }
 .nav-links { display:flex; gap:32px; list-style:none; }
 .nav-links a { font-size:16px; font-weight:400; color:var(--text-2); text-decoration:none; transition:color 0.15s; }
 .nav-links a:hover { color:var(--text); }
@@ -406,3 +407,7 @@ body {
   0%   { transform:translateX(0); }
   100% { transform:translateX(-50%); }
 }
+.nav-wordmark-image { display:block; width:54px; height:43px; object-fit:contain; }
+.footer-logo { display:inline-block; text-decoration:none; }
+.footer-brand-image { display:block; width:72px; height:57px; object-fit:contain; }
+.footer-logo:focus-visible { outline:2px solid #a5a6f6; outline-offset:6px; border-radius:4px; }
